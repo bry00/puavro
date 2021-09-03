@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Intellij
+.idea/
+*.iml
+
+# Development configuration files
+*.env
+
+# Setting local environment (for development)
+setenv.sh
+
+# Working directories
+_*/

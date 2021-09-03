@@ -1,0 +1,28 @@
+{
+  "type" : "record",
+  "name" : "Segment",
+  "namespace" : "try",
+  "fields" : [ {
+    "name" : "id",
+    "type" : "long"
+  }, {
+    "name" : "name",
+    "type" : "string"
+  }, {
+    "name" : "when",
+    "type" : {
+      "type" : "long",
+      "logicalType" : "timestamp-millis"
+    }
+  }, {
+    "name" : "direction",
+    "type" : {
+      "type" : "enum",
+      "name" : "CardinalDirection",
+      "symbols" : [ "north", "south", "east", "west" ]
+    }
+  }, {
+    "name" : "length",
+    "type" : [ "null", "long" ]
+  } ]
+}

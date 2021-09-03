@@ -1,0 +1,20 @@
+@namespace("try")
+
+protocol Try {
+
+    enum CardinalDirection {
+        north,
+        south,
+        east,
+        west
+    }
+
+    record Segment {
+      int                id;
+      string             name;
+      timestamp_ms       when;
+      CardinalDirection  direction;
+      union {null, long} length;
+    }
+
+}

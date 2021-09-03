@@ -1,0 +1,2 @@
+fastavro>=1.4.4
+pulsar-client>=2.7.0

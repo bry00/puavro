@@ -1,0 +1,6 @@
+{
+  "type" : "enum",
+  "name" : "CardinalDirection",
+  "namespace" : "try",
+  "symbols" : [ "north", "south", "east", "west" ]
+}
