@@ -1,10 +1,10 @@
 # puavro
 
-The `puavro` is a small convenience library enabling usage of the [Pulsar Python client](https://pulsar.apache.org/docs/en/client-libraries-python/)
+The `puavro` is a small convenience library enabling usage of the [Apache Pulsar Python client](https://pulsar.apache.org/docs/en/client-libraries-python/)
 with pre-defined [AVRO schemas]((https://avro.apache.org/docs/current/spec.html)) and
 [Python dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) instead of [AVRO schemas declared as records](https://pulsar.apache.org/docs/en/client-libraries-python/#declare-and-validate-schema).
 
-In other words, the library provides an interface to the standard Pulsar client
+In other words, the library provides an interface to the standard Apache Pulsar client
 allowing to read/write AVRO messages from/to Python dictionary using AVRO schema, either:
 
 - declared as Python dictionary (using [`fastavro.schema.parse_schema()`](https://fastavro.readthedocs.io/en/latest/schema.html#fastavro._schema_py.parse_schema)) or
